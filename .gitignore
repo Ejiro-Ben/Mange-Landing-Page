@@ -1,0 +1,58 @@
+# Git ignore for Mange Landing Page (Tailwind / frontend project)
+
+### Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+### Build outputs
+dist/
+build/
+out/
+public/build/
+.parcel-cache/
+.cache
+.vite/
+/.next/
+
+### Tailwind / CSS / compiled assets
+*.css.map
+*.min.css
+/.sass-cache/
+
+### Environment files
+.env
+.env.local
+.env.*.local
+
+### Logs
+logs/
+*.log
+
+### Coverage / temp
+coverage/
+tmp/
+temp/
+*.tmp
+
+### IDE / Editor
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+
+### OS generated
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+### Misc
+*.bak
+*.swp
+*.swo
+
+# If you prefer to commit generated CSS (e.g. css/main.css), remove it from this list.
+# Add or remove entries above depending on whether you want compiled assets in git.
